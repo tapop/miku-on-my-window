@@ -1,0 +1,11 @@
+/MikuDesktop.exe
+/*.zip
+/MikuDesktop.settings.ini
+/MikuDesktop.settings.ini.tmp
+/idle-first-frame.png
+/.vs/
+/bin/
+/obj/
+*.pdb
+*.log
+*.tmp
