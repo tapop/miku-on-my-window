@@ -1,6 +1,19 @@
 # miku-on-my-window · Miku Desktop
 
 설치 없이 실행하는 Windows 10/11 x64 미쿠 데스크톱 펫입니다.
+▼ 이 문단 아래의 설명은 모두 Codex가 작성하였습니다. 개발 목적이 아닌 일반 사용자께서는 여기를 읽어주세요. ▼
+```
+Windows + R, "powershell" 입력, Enter
+/cd {경로명}
+```
+위 커맨드로 압축파일을 푼 폴더에 접근한 뒤 
+```
+powershell -NoProfile -ExecutionPolicy Bypass -File .\source\build.ps1
+```
+위 커맨드를 붙여넣고 실행하세요. 붙여넣기 키는 우클릭입니다.
+정상적인 경우 'MikuDesktop.exe'가 해당 폴더에 생길 것입니다.
+파일을 실행하면 미쿠가 당신의 앞에 있습니다.
+원하는 경우 시작프로그램으로 등록해도 무방합니다.
 
 `MikuDesktop.exe`를 실행하고, 알림 영역의 미쿠 아이콘에서 설정하거나 종료하세요.
 자세한 조작은 `사용법.txt`에 있습니다.
